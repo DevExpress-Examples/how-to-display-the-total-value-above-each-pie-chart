@@ -3,7 +3,7 @@
 
 * [Form1.cs](./CS/DashboardViewer/Form1.cs) (VB: [Form1.vb](./VB/DashboardViewer/Form1.vb))
 <!-- default file list end -->
-# How to display the Total value above each Pie Chart
+# WinForms - How to display the Total value above each Pie Chart
 
 
 <p>How to display the Total value above each Pie Chart</p>
