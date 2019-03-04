@@ -25,7 +25,7 @@
 		Private Sub InitializeComponent()
 			Me.components = New System.ComponentModel.Container()
 			Me.dashboardViewer1 = New DevExpress.DashboardWin.DashboardViewer(Me.components)
-			DirectCast(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
 			' dashboardViewer1
@@ -46,7 +46,7 @@
 			Me.Controls.Add(Me.dashboardViewer1)
 			Me.Name = "Form1"
 			Me.Text = "Calculate and Display Totals in Chart Control"
-			DirectCast(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.dashboardViewer1, System.ComponentModel.ISupportInitialize).EndInit()
 			Me.ResumeLayout(False)
 
 		End Sub

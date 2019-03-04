@@ -42,12 +42,12 @@
 			Dim dashboardLayoutItem1 As New DevExpress.DashboardCommon.DashboardLayoutItem()
 			Me.pieDashboardItem1 = New DevExpress.DashboardCommon.PieDashboardItem()
 			Me.dashboardExcelDataSource1 = New DevExpress.DashboardCommon.DashboardExcelDataSource()
-			DirectCast(Me.pieDashboardItem1, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(dimension1, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(measure1, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(dimension2, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(Me.dashboardExcelDataSource1, System.ComponentModel.ISupportInitialize).BeginInit()
-			DirectCast(Me, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me.pieDashboardItem1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(dimension1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(measure1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(dimension2, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me.dashboardExcelDataSource1, System.ComponentModel.ISupportInitialize).BeginInit()
+			CType(Me, System.ComponentModel.ISupportInitialize).BeginInit()
 			' 
 			' pieDashboardItem1
 			' 
@@ -109,12 +109,12 @@
 			dashboardLayoutGroup1.Weight = 100R
 			Me.LayoutRoot = dashboardLayoutGroup1
 			Me.Title.Text = "Sales by State - Totals"
-			DirectCast(dimension1, System.ComponentModel.ISupportInitialize).EndInit()
-			DirectCast(measure1, System.ComponentModel.ISupportInitialize).EndInit()
-			DirectCast(dimension2, System.ComponentModel.ISupportInitialize).EndInit()
-			DirectCast(Me.pieDashboardItem1, System.ComponentModel.ISupportInitialize).EndInit()
-			DirectCast(Me.dashboardExcelDataSource1, System.ComponentModel.ISupportInitialize).EndInit()
-			DirectCast(Me, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(dimension1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(measure1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(dimension2, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.pieDashboardItem1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me.dashboardExcelDataSource1, System.ComponentModel.ISupportInitialize).EndInit()
+			CType(Me, System.ComponentModel.ISupportInitialize).EndInit()
 
 		End Sub
 
