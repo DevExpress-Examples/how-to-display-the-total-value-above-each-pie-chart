@@ -1,7 +1,7 @@
 <!-- default file list -->
 *Files to look at*:
 
-* [Form1.cs](./CS/DashboardViewer/Form1.cs) (VB: [Form1.vb](./VB/DashboardViewer/Form1.vb))
+* [Form1.cs](./CS/TotalsInChartsExample/Form1.cs) (VB: [Form1.vb](./VB/TotalsInChartsExample/Form1.vb))
 <!-- default file list end -->
 # WinForms Dashboard - How to Display the Total Value Above Each Pie Chart
 
