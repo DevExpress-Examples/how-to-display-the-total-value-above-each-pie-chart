@@ -1,16 +1,14 @@
-<!-- default badges list -->
 ![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/170114586/18.2.5%2B)
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T830467)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/TotalsInChartsExample/Form1.cs) (VB: [Form1.vb](./VB/TotalsInChartsExample/Form1.vb))
-<!-- default file list end -->
-# WinForms Dashboard - How to Display the Total Value Above Each Pie Chart
+# Dashboard for WinForms - How to Display the Total Value Above Each Pie Chart
 
 This example demonstrates how to access the [underlying chart control](https://docs.devexpress.com/Dashboard/18019) in the [Pie dashboard item](https://docs.devexpress.com/Dashboard/15262) and display the **Total** value in the chart title.
+
+## Files to look at:
+
+* [Form1.cs](./CS/TotalsInChartsExample/Form1.cs) (VB: [Form1.vb](./VB/TotalsInChartsExample/Form1.vb))
 
 ![screenshot](./images/screenshot.png)
 
